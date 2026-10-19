@@ -1,4 +1,4 @@
-# Priti Srivastava | Portfolio
+# Portfolio
 
 A personal portfolio website built with React, TypeScript, and Vite. The site highlights my work as a full-stack developer, includes a featured grocery store project, and provides quick links to my GitHub, LinkedIn, and email.
 
@@ -75,15 +75,3 @@ npm run build
 ```bash
 npm run preview
 ```
-
-## Live Portfolio
-
-- GitHub: https://github.com/dev-priti
-- LinkedIn: https://www.linkedin.com/in/priti-srivastava-b1677470/
-- Featured project: https://advance-grocery-store.vercel.app/
-
-## Contact
-
-For business inquiries or collaboration opportunities, reach out via email:
-
-- priti.srivastava6192@gmail.com
