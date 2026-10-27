@@ -35,7 +35,7 @@ export const portfolioConfig = {
         "A fully functional online grocery store featuring product browsing, secure authentication, cart management, order tracking, and AI integration.",
       githubUrl: "https://github.com/dev-priti/advance_grocery_store",
       websiteUrl: "https://advance-grocery-store.vercel.app/",
-      image: "./src/assets/grocery-store.png",
+      image: "./grocery-store.png",
       highlights: [
         "Implemented secure JWT-based user authentication and guest-to-user cart merging logic.",
         "Optimized frontend bundle size and component re-rendering using Vite and React best practices.",
