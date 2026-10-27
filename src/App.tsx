@@ -4,7 +4,9 @@ import { portfolioConfig } from "./portfolioConfig";
 import "./styles.css";
 
 // Group technologies by category
-const groupedSkills = portfolioConfig.technologies.reduce((acc, skill) => {
+const groupedSkills = portfolioConfig.technologies.reduce<
+  Record<string, string[]>
+>((acc, skill) => {
   const category = skill.category || "Other";
   if (!acc[category]) {
     acc[category] = [];
