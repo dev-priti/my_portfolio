@@ -1,7 +1,7 @@
 export const portfolioConfig = {
   profile: {
     name: "Priti Srivastava",
-    title: "Full Stack Developer",
+    title: "Lead / Full Stack Software Engineer",
     githubUrl: "https://github.com/dev-priti",
     linkedInUrl: "https://www.linkedin.com/in/priti-srivastava-b1677470/",
     projects: "https://github.com/dev-priti?tab=repositories",
@@ -10,6 +10,7 @@ export const portfolioConfig = {
   technologies: [
     { name: "React", category: "Frontend" },
     { name: "Node.js", category: "Backend" },
+    { name: "Express", category: "Framework" },
     { name: "TypeScript", category: "Languages" },
     { name: "JavaScript", category: "Frontend" },
     { name: "MongoDB", category: "Database" },
@@ -19,13 +20,50 @@ export const portfolioConfig = {
     { name: "Vercel", category: "CD" },
     { name: "Vite", category: "Frontend Tooling" },
     { name: "CSS", category: "Frontend" },
+    { name: "SASS", category: "Frontend" },
+    { name: "Drupal", category: "CMS" },
+    { name: "AI integration", category: "" },
+    { name: "MS Copilot", category: "AI Productivity Tool" },
+    { name: "ChatGpt", category: "AI Productivity Tool" },
+    { name: "Gemini", category: "" },
   ],
   projects: [
     {
-      title: "Grocery store web application",
-      description: "A fully functional grocery online store.",
+      title: "Advanced Grocery Store Web Application",
+      category: "Full-Stack MERN Application",
+      description:
+        "A fully functional online grocery store featuring product browsing, secure authentication, cart management, order tracking, and AI integration.",
       githubUrl: "https://github.com/dev-priti/advance_grocery_store",
       websiteUrl: "https://advance-grocery-store.vercel.app/",
+      image: "./src/assets/grocery-store.png",
+      highlights: [
+        "Implemented secure JWT-based user authentication and guest-to-user cart merging logic.",
+        "Optimized frontend bundle size and component re-rendering using Vite and React best practices.",
+        "Integrated AI-assisted coding tools (GitHub Copilot) to accelerate feature delivery and test coverage.",
+      ],
+      tags: [
+        "React",
+        "MERN",
+        "Express",
+        "Node.js",
+        "MongoDB",
+        "AI integration",
+        "Vercel",
+        "GitHub",
+      ],
+    },
+    {
+      title: "Enterprise Multi-Brand Global E-Commerce Platform",
+      category: "Full-Stack Enterprise Architecture",
+      description:
+        "Optimized frontend assets, bundle execution, and checkout flows across 19 global luxury and retail brands, driving measurable improvements in page speed and conversion rates.",
+      highlights: [
+        "Architected and scaled multi-tenant frontend applications serving 19 distinct global brand identities.",
+        "Optimized core Web Vitals through advanced asset caching and lazy-loading strategies.",
+        "Streamlined enterprise checkout workflows to reduce drop-offs and boost transaction conversion.",
+      ],
+      hook: "Ask me about multi-tenant asset caching and scaling frontend performance across 19 global brands.",
+      tags: ["React", "Drupal", "Web Vitals", "Performance", "Enterprise"],
     },
   ],
 };
