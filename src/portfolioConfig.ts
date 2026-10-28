@@ -22,10 +22,10 @@ export const portfolioConfig = {
     { name: "CSS", category: "Frontend" },
     { name: "SASS", category: "Frontend" },
     { name: "Drupal", category: "CMS" },
-    { name: "AI integration", category: "" },
+    { name: "AI integration", category: "Others" },
     { name: "MS Copilot", category: "AI Productivity Tool" },
     { name: "ChatGpt", category: "AI Productivity Tool" },
-    { name: "Gemini", category: "" },
+    { name: "Gemini", category: "Others" },
   ],
   projects: [
     {
