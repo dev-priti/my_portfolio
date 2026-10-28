@@ -17,6 +17,7 @@ export const portfolioConfig = {
 
     { name: "Git", category: "Version control" },
     { name: "GitHub", category: "CI/CD" },
+    { name: "Jenkins", category: "CI/CD" },
     { name: "Vercel", category: "CD" },
     { name: "Vite", category: "Frontend Tooling" },
     { name: "CSS", category: "Frontend" },
