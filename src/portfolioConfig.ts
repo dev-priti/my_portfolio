@@ -14,7 +14,7 @@ export const portfolioConfig = {
     { name: "TypeScript", category: "Languages" },
     { name: "JavaScript", category: "Frontend" },
     { name: "MongoDB", category: "Database" },
-    { name: "Rest APIs", category: "Others" },
+
     { name: "Git", category: "Version control" },
     { name: "GitHub", category: "CI/CD" },
     { name: "Vercel", category: "CD" },
@@ -22,10 +22,12 @@ export const portfolioConfig = {
     { name: "CSS", category: "Frontend" },
     { name: "SASS", category: "Frontend" },
     { name: "Drupal", category: "CMS" },
-    { name: "AI integration", category: "Others" },
+
     { name: "MS Copilot", category: "AI Productivity Tool" },
     { name: "ChatGpt", category: "AI Productivity Tool" },
+    { name: "Rest APIs", category: "Others" },
     { name: "Gemini", category: "Others" },
+    { name: "AI integration", category: "Others" },
   ],
   projects: [
     {
